@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Musical Structure App</string>
+    <!-- Title for the application. -->
+    <string name="app_name">My Audiobook Player</string>
+
+    <!-- Genre name for comedy -->
+    <string name="genre_comedy">Comedy</string>
+
+    <!-- Genre name for drama -->
+    <string name="genre_drama">Drama</string>
+
+    <!-- Genre name for thriller -->
+    <string name="genre_thriller">Thriller</string>
+
+    <!-- Genre name for horror -->
+    <string name="genre_horror">Horror</string>
+
+    <!-- Tool strings -->
+    <string name="audiobook_title">Title</string>
+    <string name="audiobook_narrated_by">Narrated By</string>
+    <string name="audiobook_length">Length</string>
+    <string name="audiobook_release_date">Release Date</string>
+
 </resources>
