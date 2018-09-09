@@ -76,5 +76,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(dramaIntent);
             }
         });
+
+        // Find the View that shows the search screen
+        ImageView search = (ImageView) findViewById(R.id.search);
+
+        // Set a click listener on that View
+        search.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the Drama
+                Intent searchIntent = new Intent(MainActivity.this, Search.class);
+
+                // Start the new activity
+                startActivity(searchIntent);
+            }
+        });
+
     }
 }

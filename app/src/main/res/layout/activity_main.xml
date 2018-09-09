@@ -35,5 +35,11 @@
             android:src="@drawable/thriller_2"
             android:background="@color/genre_thriller"/>
 
+        <ImageView
+            android:id="@+id/search"
+            style="@style/GenreStyle"
+            android:src="@drawable/search"
+            android:background="@color/search"/>
+
     </LinearLayout>
 </ScrollView>
