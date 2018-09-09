@@ -25,7 +25,7 @@ public class Drama extends AppCompatActivity {
         // Locate the ListView to use
         ListView listView = findViewById(R.id.abList);
 
-        // MAke use of the adapter in your ListView instance
+        // Make use of the adapter in your ListView instance
         listView.setAdapter(myAdapter);
 
     }
