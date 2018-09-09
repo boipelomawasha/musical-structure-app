@@ -15,24 +15,28 @@
             android:id="@+id/comedy"
             style="@style/GenreStyle"
             android:src="@drawable/comedy_2"
+            android:contentDescription="@string/genre_comedy"
             android:background="@color/genre_comedy"/>
 
         <ImageView
             android:id="@+id/drama"
             style="@style/GenreStyle"
             android:src="@drawable/drama_2"
+            android:contentDescription="@string/genre_drama"
             android:background="@color/genre_drama"/>
 
         <ImageView
             android:id="@+id/horror"
             style="@style/GenreStyle"
             android:src="@drawable/horror_2"
+            android:contentDescription="@string/genre_horror"
             android:background="@color/genre_horror"/>
 
         <ImageView
             android:id="@+id/thriller"
             style="@style/GenreStyle"
             android:src="@drawable/thriller_2"
+            android:contentDescription="@string/genre_thriller"
             android:background="@color/genre_thriller"/>
 
         <ImageView

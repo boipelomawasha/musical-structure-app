@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the comedy genre
-        ImageView comedy = (ImageView) findViewById(R.id.comedy);
+        ImageView comedy = findViewById(R.id.comedy);
 
         // Set a click listener on that View
         comedy.setOnClickListener(new View.OnClickListener() {
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the horror genre
-        ImageView horror = (ImageView) findViewById(R.id.horror);
+        ImageView horror = findViewById(R.id.horror);
 
         // Set a click listener on that View
         horror.setOnClickListener(new View.OnClickListener() {
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the thriller
-        ImageView thriller = (ImageView) findViewById(R.id.thriller);
+        ImageView thriller = findViewById(R.id.thriller);
 
         // Set a click listener on that View
         thriller.setOnClickListener(new View.OnClickListener() {
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the drama
-        ImageView drama = (ImageView) findViewById(R.id.drama);
+        ImageView drama = findViewById(R.id.drama);
 
         // Set a click listener on that View
         drama.setOnClickListener(new View.OnClickListener() {
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the search screen
-        ImageView search = (ImageView) findViewById(R.id.search);
+        ImageView search = findViewById(R.id.search);
 
         // Set a click listener on that View
         search.setOnClickListener(new View.OnClickListener() {

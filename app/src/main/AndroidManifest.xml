@@ -16,11 +16,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Drama" />
-        <activity android:name=".Comedy" />
-        <activity android:name=".Thriller" />
-        <activity android:name=".Horror" />
-        <activity android:name=".Search" />
+        <activity
+            android:name=".Drama"
+            android:label="Drama"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Comedy"
+            android:label="Comedy"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Thriller"
+            android:label="Thriller"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Horror"
+            android:label="Horror"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Search"
+            android:label="Search"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

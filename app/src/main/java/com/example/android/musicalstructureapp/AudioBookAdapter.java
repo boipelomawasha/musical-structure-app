@@ -24,32 +24,31 @@ public class AudioBookAdapter extends ArrayAdapter<AudioBook> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if an existing view is being reused, otherwise inflate the view
-        View audiobookList = convertView;
-        if (audiobookList == null) {
-            audiobookList = LayoutInflater.from(getContext()).inflate(
+        if (null == convertView) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.audio_book_list, parent, false);
         }
 
         AudioBook currentBook = getItem(position);
 
         // Find the TextView in the audio_book_list.xml layout with the ID title.
-        TextView titleTextView = (TextView) audiobookList.findViewById(R.id.title);
+        TextView titleTextView = (TextView) convertView.findViewById(R.id.title);
         titleTextView.setText(currentBook.getTitle());
 
         // Find the TextView in the audio_book_list.xml layout with the ID narrated_by.
-        TextView narratedByTextView = (TextView) audiobookList.findViewById(R.id.narrated_by);
+        TextView narratedByTextView = (TextView) convertView.findViewById(R.id.narrated_by);
         narratedByTextView.setText(currentBook.getNarratedBy());
 
         // Find the TextView in the audio_book_list.xml layout with the ID length.
-        TextView lengthTextView = (TextView) audiobookList.findViewById(R.id.length);
+        TextView lengthTextView = (TextView) convertView.findViewById(R.id.length);
         lengthTextView.setText(currentBook.getLength());
 
         // Find the TextView in the audio_book_list.xml layout with the ID release_date.
-        TextView releaseDateTextView = (TextView) audiobookList.findViewById(R.id.release_date);
+        TextView releaseDateTextView = (TextView) convertView.findViewById(R.id.release_date);
         releaseDateTextView.setText(currentBook.getReleaseDate());
 
         // Return the whole list item layout (containing 4 TextViews)
-        return audiobookList;
+        return convertView;
     }
 
 }
