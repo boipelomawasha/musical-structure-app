@@ -20,6 +20,7 @@
         <activity android:name=".Comedy" />
         <activity android:name=".Thriller" />
         <activity android:name=".Horror" />
+        <activity android:name=".Search" />
     </application>
 
 </manifest>
