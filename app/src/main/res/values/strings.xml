@@ -14,6 +14,9 @@
     <!-- Genre name for horror -->
     <string name="genre_horror">Horror</string>
 
+    <!-- String for search -->
+    <string name="search">Search</string>
+
     <!-- Tool strings -->
     <string name="audiobook_title">Title</string>
     <string name="audiobook_narrated_by">Narrated By</string>

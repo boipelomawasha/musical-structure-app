@@ -18,23 +18,23 @@
         </activity>
         <activity
             android:name=".Drama"
-            android:label="Drama"
+            android:label="@string/genre_drama"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Comedy"
-            android:label="Comedy"
+            android:label="@string/genre_comedy"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Thriller"
-            android:label="Thriller"
+            android:label="@string/genre_thriller"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Horror"
-            android:label="Horror"
+            android:label="@string/genre_horror"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Search"
-            android:label="Search"
+            android:label="@string/search"
             android:parentActivityName=".MainActivity" />
     </application>
 
